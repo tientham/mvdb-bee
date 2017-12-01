@@ -7,5 +7,5 @@
 /build
 /captures
 .externalNativeBuild
-.build.gradle
+/build.gradle
 /mvdb-bee-lib/build.gradle
