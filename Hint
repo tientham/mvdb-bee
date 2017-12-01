@@ -1,0 +1,21 @@
+1. Inside Build.gradle, in order to support for libraries 26+, then:
+
+If you are using Android Studio 3.0 or above make sure your project's build.gradle file looks like this-
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+For below Android Studio 3.0 and starting from support libraries 26.+ your project's build.gradle file must look like this-
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
