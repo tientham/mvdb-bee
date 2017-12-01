@@ -1,0 +1,4 @@
+1. Hiding personal stuff
+git rm --cached mvdb-bee/mvdb-bee-lib/build.gradle
+git rm --cached mvdb-bee/build.gradle
+2. Put key into local.properties
